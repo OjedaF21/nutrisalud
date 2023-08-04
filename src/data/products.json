@@ -1,56 +1,56 @@
 [
     {
         "name": "a",
-        "price": 0,
+        "price": 10,
         "description": "a",
         "image": "",
         "id": 1
     } ,
     {
         "name": "a",
-        "price": 0,
+        "price": 20,
         "description": "a",
         "image": "",
         "id": 2
     } ,
     {
         "name": "a",
-        "price": 0,
+        "price": 30,
         "description": "a",
         "image": "",
         "id": 3
     } ,
     {
         "name": "a",
-        "price": 0,
+        "price": 40,
         "description": "a",
         "image": "",
         "id": 4
     } ,
     {
         "name": "a",
-        "price": 0,
+        "price": 50,
         "description": "a",
         "image": "",
         "id": 5
     } ,
     {
         "name": "a",
-        "price": 0,
+        "price": 60,
         "description": "a",
         "image": "",
         "id": 6
     } ,
     {
         "name": "a",
-        "price": 0,
+        "price": 70,
         "description": "a",
         "image": "",
         "id": 7
     } ,
     {
         "name": "a",
-        "price": 0,
+        "price": 80,
         "description": "a",
         "image": "",
         "id": 8
