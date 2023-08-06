@@ -11,10 +11,10 @@ let controller = {
         product.name = req.body.name;
         product.price = req.body.price;
         product.decription = req.body.decription;
-        product.image = req.body.image;
+        product.image = req.file.filename;
         products.push(product);
-        let productjson = JSON.stringify(products);
-        fs.writeFileSync(ruta, productjson, { encoding: 'utf-8' });
+        let productjson = JSON.stringify(products, null, 4);
+        fs.writeFileSync(ruta, productjson);
         res.status(201).json(products);
     },
     crear: (req, res) => {
