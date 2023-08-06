@@ -11,7 +11,7 @@ let controller = {
         product.name = req.body.name;
         product.price = req.body.price;
         product.decription = req.body.decription;
-        product.image = req.file.filename;
+        product.image = req.body.image;
         products.push(product);
         let productjson = JSON.stringify(products, null, 4);
         fs.writeFileSync(ruta, productjson);

@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 // rutas
 app.get('/', (req, res) => {
-    res.json('list');
+    res.json('hola');
 })
 app.use('/products', products);
 app.use('/users', users);
@@ -26,6 +26,7 @@ app.use(function (req, res, next) {
         error: 'Resource not found',
         message: 'Error en el recurso solicitado'
     })
+    next()
 });
 
-app.listen(3000, () => console.log('server corriendo en el puerto http://localhost:3000/'));
+app.listen(4000, () => console.log('server corriendo en el puerto http://localhost:4000/'));

@@ -16,6 +16,11 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
+const logs = (req, res, next) => {
+    fs.appendFileSync(path.resolve(__dirname, '../logs/logs.txt'), 'la ruta ingresada es ${req.originalUrl}')
+    next();
+}
+
 router.post('/crear', upload.single('image'), controller.crear);
 router.get('/listar', controller.list);
 router.get('/detalle/:id', controller.detalle);
