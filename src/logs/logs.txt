@@ -1,0 +1,18 @@
+la ruta ingresada es /products/listarla ruta ingresada es /products/listarla ruta ingresada es /products/listar 
+la ruta ingresada es /products/listar 
+la ruta ingresada es /products/crear 
+la ruta ingresada es /products/crear 
+la ruta ingresada es /products/crear 
+la ruta ingresada es /products/crear 
+la ruta ingresada es /products/detalle/:1 
+la ruta ingresada es /products/detalle/:1 
+la ruta ingresada es /products/crear 
+la ruta ingresada es /products/crear 
+la ruta ingresada es /products/detalle/:price 
+la ruta ingresada es /products/detalle/:price 
+la ruta ingresada es /products/crear 
+la ruta ingresada es /products/crear 
+la ruta ingresada es /products/crear 
+la ruta ingresada es /products/crear 
+la ruta ingresada es /products/listar 
+la ruta ingresada es /products/listar 

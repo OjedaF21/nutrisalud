@@ -4,47 +4,52 @@
         "price": 10,
         "description": "a",
         "image": ""
-    } ,
+    },
     {
         "name": "a",
         "price": 20,
         "description": "a",
         "image": ""
-    } ,
+    },
     {
         "name": "a",
         "price": 30,
         "description": "a",
         "image": ""
-    } ,
+    },
     {
         "name": "a",
         "price": 40,
         "description": "a",
         "image": ""
-    } ,
+    },
     {
         "name": "a",
         "price": 50,
         "description": "a",
         "image": ""
-    } ,
+    },
     {
         "name": "a",
         "price": 60,
         "description": "a",
         "image": ""
-    } ,
+    },
     {
         "name": "a",
         "price": 70,
         "description": "a",
         "image": ""
-    } ,
+    },
     {
         "name": "a",
         "price": 80,
         "description": "a",
         "image": ""
-    } 
+    },
+    {
+        "name": "pato",
+        "price": "500",
+        "description": "amarillito"
+    }
 ]

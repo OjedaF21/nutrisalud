@@ -7,18 +7,18 @@ let products = JSON.parse(jsonproducts);
 
 let controller = {
     list: (req, res) => {
+        res.json(products);
+    },
+    crear: (req, res) => {
         let product = {};
         product.name = req.body.name;
         product.price = req.body.price;
-        product.decription = req.body.decription;
+        product.description = req.body.description;
         product.image = req.body.image;
         products.push(product);
         let productjson = JSON.stringify(products, null, 4);
         fs.writeFileSync(ruta, productjson);
         res.status(201).json(products);
-    },
-    crear: (req, res) => {
-        res.json(products);
     },
     detalle: (req, res) => {
         let elemento =

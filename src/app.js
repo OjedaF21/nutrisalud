@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 const users = require('./routers/users');
 const products = require('./routers/products');
+const logs = require('./middelwares/logs');
 
 //base de datos
 mongoose.connect('mongodb://127.0.0.1:27017/nutrisalud')
@@ -15,8 +16,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 // rutas
 app.get('/', (req, res) => {
-    res.json('hola');
+    next();
 })
+app.use(logs);
 app.use('/products', products);
 app.use('/users', users);
 
@@ -26,7 +28,6 @@ app.use(function (req, res, next) {
         error: 'Resource not found',
         message: 'Error en el recurso solicitado'
     })
-    next()
 });
 
 app.listen(4000, () => console.log('server corriendo en el puerto http://localhost:4000/'));
