@@ -1,19 +1,19 @@
 [
     {
-        "name": "a",
-        "price": 10,
-        "description": "a",
+        "name": "Te Manzanilla",
+        "price": 450,
+        "description": "Te de Manzanilla 25u.",
         "image": ""
     },
     {
-        "name": "a",
-        "price": 20,
-        "description": "a",
+        "name": "Cereales rellenos de frutilla",
+        "price": 500,
+        "description": "almohaditas de cereal rellenas de frutilla 160gr.",
         "image": ""
     },
     {
-        "name": "a",
-        "price": 30,
+        "name": "Te Verde",
+        "price": 400,
         "description": "a",
         "image": ""
     },
@@ -51,5 +51,10 @@
         "name": "pato",
         "price": "500",
         "description": "amarillito"
+    },
+    {
+        "name": "Te Manzanilla",
+        "price": "450",
+        "description": "Te de Manzanilla 25u."
     }
 ]

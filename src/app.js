@@ -1,15 +1,12 @@
 const path = require('path');
 const express = require('express');
-const mongoose = require('mongoose');
 const app = express();
 const users = require('./routers/users');
 const products = require('./routers/products');
 const logs = require('./middelwares/logs');
-
+const connectDb = require('./database/models/connect');
 //base de datos
-mongoose.connect('mongodb://127.0.0.1:27017/nutrisalud')
-    .then(() => console.log('db'))
-    .catch(e => console.log(e));
+connectDb();
 // configuraciones
 app.use(express.static(path.resolve(__dirname, '../public')));
 app.use(express.urlencoded({ extended: false }));
